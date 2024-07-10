@@ -1,6 +1,8 @@
-package org.example;
+package org.example.handlers;
 
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
+import org.example.Command;
+import org.example.DisCommand;
 import org.reflections.Reflections;
 import org.reflections.scanners.Scanners;
 import org.reflections.util.ConfigurationBuilder;
